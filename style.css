@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.404)),url('image/training-828726_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-logo-nav {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:rgba(171, 171, 171, 0.385); 
+    padding: .75% 5%;
+}
+
+.header-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-logo span {
+    color: orangered;
+}
+
+
+
+.header-nav a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.header-nav-btn {
+    background-color: orangered;
+    color: white;
+    border: 3px solid orangered;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-description {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.header-btn {
+    color: white;
+    background-color: orangered;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 9px;
+}
+.header-text {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.header-content {
+    margin: 20px;
+    font-size: 60px;
+}
+
+.header-content span {
+    color: orangered;
+}
+
+.program-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.program-card-img img {
+    width: 3rem;
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.program-card {
+    display: flex;
+}
+
+.section-info {
+    padding: 3% 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 60px;       
+}
+
+.section-info img {
+    width: 2rem;
+    margin: 15px;
+}
+
+.section-info span {
+    color: orangered;
+}
+
+.section-info .title {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+
+.section-info .text {
+    color: #00000098;
+    font-size: large;
+}

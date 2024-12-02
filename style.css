@@ -93,6 +93,9 @@ body {
 .program-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 50px;
+    padding: 1% 8% 5%;
 }
 
 .program-card-img img {
@@ -100,11 +103,24 @@ body {
     background-color: orangered;
     width: 100px;
     height: 100px;
-    border-radius: 10%;
+    border-radius: 6px;
+    
 }
+
+.program-card-img {
+    position: relative;
+    right: 30px;
+}
+
+
 
 .program-card {
     display: flex;
+    justify-content: space-between;
+}
+
+.program-card-description {
+    padding: left;
 }
 
 .section-info {
@@ -133,4 +149,26 @@ body {
 .section-info .text {
     color: #00000098;
     font-size: large;
+    padding: 2% 20%;
+}
+
+.program-card-title {
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-weight: 630;
+}
+
+.program-btn {
+    border: none;
+    font-size: 14px;
+    background-color: white;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: 600;
+    padding: 0;
+}
+
+.classes-container-left {
+    display: flex;
+    flex-direction: column;
 }
